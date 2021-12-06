@@ -1,0 +1,30 @@
+html, body {
+    background-color: #1b1d1e !important;
+    font-family: "Courier", "Courier New";
+    color: #FFF !important;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 16px !important;
+  }
+
+  #temp {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+  }
+
+  #footerText {
+    display: inline-block;
+    /*
+    display: inline-block;
+    text-align: left;
+    */
+  }
