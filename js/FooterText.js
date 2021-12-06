@@ -1,3 +1,6 @@
-let footerText = document.getElementById('footerText');
+let footerTextLeft = document.getElementById('footerTextLeft');
+footerTextLeft.innerHTML = '<h5>&copy; Hxdce</h5>';
+
+let footerTextRight = document.getElementById('footerTextRight');
 let year = new Date().getFullYear();
-footerText.innerHTML = '<h4>&copy; Hxdce<br>' + year + '</h4>';
+footerTextRight.innerHTML = '<h5>' + year + '</h5>';

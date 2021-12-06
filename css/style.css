@@ -1,6 +1,6 @@
 html, body {
-    background-color: #1b1d1e !important;
-    font-family: "Courier", "Courier New";
+    background-color: black !important;
+    font-family: "Lucida Console";
     color: #FFF !important;
     text-align: center;
     margin: 0;
@@ -15,16 +15,27 @@ html, body {
     transform: translate(-50%, -50%);
   }
 
-  #footer {
+  #footerLeft {
     position: absolute;
     bottom: 0px;
-    width: 100%;
+    left: 0px;
   }
 
-  #footerText {
-    display: inline-block;
+  #footerTextLeft {
     /*
     display: inline-block;
-    text-align: left;
     */
+    text-align: left;
+    padding-left: 1em;
+  }
+
+  #footerRight {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+  }
+
+  #footerTextRight {
+    text-align: right;
+    padding-right: 1em;
   }
