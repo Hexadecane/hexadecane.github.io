@@ -1,5 +1,5 @@
 html, body {
-  background-color: black !important;
+  background-color: #000 !important;
   font-family: "Lucida Console", "Courier New", Courier, monospace;
   color: #FFF !important;
   margin: 0;
@@ -9,30 +9,93 @@ html, body {
   background-position: center;
 }
 
-#temp {
-  text-align: center;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+
+::-webkit-scrollbar {
+  width: inherit;
+  background-color: inherit;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #222;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #444;
 }
 
+
+#navbar {
+  position: fixed;
+  width: 100%;
+  height: 4em;
+  top: 0;
+  left: 0;
+  background-color: #111;
+}
+#nav-list {
+  margin: 0;
+  padding: 0;
+  height: 4em;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#nav-list li {
+  font-family: "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
+  margin: 0 4em;
+}
+#nav-list a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+  transition: 150ms;
+}
+#nav-list a:hover {
+  background-color: #FFF;
+  text-decoration: initial;
+  color: #000 !important;
+  transition: 150ms;
+}
+
+
+#someContents {
+  height: 150%;
+  margin: auto;
+  min-height: 100vh;
+  padding-top: 35vh;
+  width: 75%;
+  text-align: center;
+}
+
+
+#signature {
+  text-align: center;
+  bottom: 0px;
+  margin: auto;
+  transform: translate(0%, -25%);
+}
+
+
 #footerLeft {
-  position: absolute;
+  position: fixed;
   bottom: 0px;
   left: 0px;
 }
+
 
 #footerTextLeft {
   text-align: left;
   padding-left: 1em;
 }
 
+
 #footerRight {
-  position: absolute;
+  position: fixed;
   bottom: 0px;
   right: 0px;
 }
+
 
 #footerTextRight {
   text-align: right;
