@@ -11,6 +11,11 @@ html, body {
 }
 
 
+body {
+  padding-top: 4em;
+}
+
+
 ::-webkit-scrollbar {
   width: inherit;
   background-color: inherit;
@@ -57,6 +62,20 @@ html, body {
   text-decoration: initial;
   color: #000 !important;
   transition: 150ms;
+}
+
+
+@media (max-width: 680px) {
+  #nav-list {
+    flex-direction: column;
+    height: auto;
+  }
+  #navbar {
+    height: auto;
+  }
+  #nav-list li {
+    margin: 1.5em 0;
+  }
 }
 
 
