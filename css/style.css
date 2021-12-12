@@ -88,6 +88,27 @@ html, body {
   margin: 1em;
 }
 
+
+#contactGrid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  width: 67%;
+  margin: 0 auto;
+}
+#profileLink {
+  text-decoration: none;
+  color: #2f97ce !important;
+  padding: 1em;
+  transition: 150ms;
+}
+#profileLink:hover {
+  background-color: #333;
+  text-decoration: initial;
+  color: #ce2f47 !important;
+  transition: 150ms;
+}
+
+
 #signature {
   position: relative;
   bottom: 8em;
