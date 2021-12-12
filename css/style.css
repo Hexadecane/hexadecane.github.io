@@ -78,6 +78,16 @@ html, body {
   justify-content: center;
 }
 
+#skillsGrid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 0;
+  opacity: 75%;
+}
+#skillsGrid div {
+  margin: 1em;
+}
+
 #signature {
   position: relative;
   bottom: 8em;
