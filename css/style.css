@@ -4,15 +4,9 @@ html, body {
   color: #FFF !important;
   margin: 0;
   padding: 0;
-  height: 100%;
   background-image: url("../images/Grid.png");
   background-position: center;
   background-attachment: fixed;
-}
-
-
-body {
-  padding-top: 4em;
 }
 
 
@@ -24,7 +18,7 @@ body {
   background-color: #222;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #444;
+  background-color: #444;
 }
 
 
@@ -65,21 +59,34 @@ body {
 }
 
 
-#someContents {
-  height: 150%;
-  margin: auto;
-  min-height: 100vh;
-  padding-top: 35vh;
-  width: 75%;
+#pageContents {
+  width: 80%;
+  margin: 0 auto 2em auto;
+  /*height: calc(100vh - 6em);*/
+  display: flex;
+  flex-direction: column;
+  /*justify-content: space-between;*/
   text-align: center;
+  background-color: #111;
+}
+.pageChunk {
+  height: calc(100vh - 2em);
+  width: calc(100% * 2 / 3);
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-
 #signature {
+  position: relative;
+  bottom: 8em;
+  height: 0;
+  /*
   text-align: center;
-  bottom: 0px;
   margin: auto;
-  transform: translate(0%, -50%);
+  transform: translate(0%, -25%);
+  */
 }
 
 
@@ -87,13 +94,14 @@ body {
   position: fixed;
   width: 100%;
   background-color: #111;
-  height: 2em;
+  height: 2em !important;
   bottom: 0px;
 }
 #footerList {
   list-style: none;
   display: flex;
   flex-direction: row;
+  list-style: none;
   margin: 0px !important;
   padding: 0px !important;
   font-size: 1em !important;
@@ -102,11 +110,11 @@ body {
 }
 #footerTextLeft p {
   text-align: left;
-  margin: .67em 0em .33em 1em;
+  margin: .6em 0em .4em 1em;
 }
 #footerTextRight p {
   text-align: right;
-  margin: .67em 1em .33em 0em;
+  margin: .6em 1em .4em 0em;
 }
 
 
