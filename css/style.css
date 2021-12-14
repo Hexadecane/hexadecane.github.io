@@ -29,6 +29,7 @@ html, body {
   top: 0;
   left: 0;
   background-color: #111;
+  z-index: 999;
 }
 #navList {
   margin: 0;
