@@ -169,4 +169,12 @@ h2 {
   #footerList {
     font-size: .75em !important;
   }
+  #skillsGrid {
+    font-size: .75em;
+    grid-template-columns: auto auto;
+  }
+  #contactGrid {
+    font-size: .75em;
+    grid-template-columns: auto auto;
+  }
 }
