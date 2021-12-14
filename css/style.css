@@ -21,6 +21,12 @@ html, body {
   background-color: #444;
 }
 
+h1 {
+  font-size: 2.5em; /* Default = 2em */
+}
+h2 {
+  font-size: 2em;  /* Default = 1.5em */
+}
 
 #navbar {
   position: fixed;
@@ -79,6 +85,10 @@ html, body {
   justify-content: center;
 }
 
+
+#skillsGridTitle {
+  margin: 1em auto;
+}
 #skillsGrid {
   display: grid;
   grid-template-columns: auto auto auto;
