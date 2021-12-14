@@ -69,10 +69,8 @@ h2 {
 #pageContents {
   width: 80%;
   margin: 0 auto 2em auto;
-  /*height: calc(100vh - 6em);*/
   display: flex;
   flex-direction: column;
-  /*justify-content: space-between;*/
   text-align: center;
   background-color: #111;
 }
