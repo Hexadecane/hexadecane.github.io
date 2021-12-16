@@ -68,7 +68,7 @@ h2 {
 
 #pageContents {
   width: 80%;
-  margin: 0 auto 2em auto;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   text-align: center;
