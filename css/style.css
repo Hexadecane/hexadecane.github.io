@@ -85,7 +85,17 @@ h2 {
   justify-content: center;
 }
 
+/* Stuff for the About section: */
 
+.aboutChunk {
+  width: 100%;
+}
+#professionFirstBreak {
+  display: none;
+}
+#professionSecondBreak {
+  display: none;
+}
 #skillsGridTitle {
   margin: 1em auto;
   font-size: 1.5em;
@@ -95,11 +105,27 @@ h2 {
   grid-template-columns: auto auto auto;
   padding: 0;
   opacity: 75%;
+  width: calc(100% * 2 / 3);
+  margin: 0 auto;
 }
 #skillsGrid div {
   margin: 1em;
 }
+@media (max-width: 1080px) {
+  #professionFirstBreak {
+    display: block;
+  }
+}
+@media (max-width: 1600px) {
+  #professionSecondBreak {
+    display: block;
+  }
+}
 
+/* Stuff for the Work section: */
+
+
+/* Stuff for the Contact section: */
 
 #contactGrid {
   display: grid;
