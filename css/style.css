@@ -88,6 +88,7 @@ h2 {
 
 #skillsGridTitle {
   margin: 1em auto;
+  font-size: 1.5em;
 }
 #skillsGrid {
   display: grid;
