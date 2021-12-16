@@ -159,6 +159,18 @@ h2 {
 
 
 @media (max-width: 680px) {
+  #pageContents {
+    width: 100%;
+  }
+  h1 {
+    font-size: 8vw; /* Default = 2em */
+  }
+  h2 {
+    font-size: 6vw;  /* Default = 1.5em */
+  }
+  #skillsGridTitle {
+    font-size: 4vw;
+  }
   #navList li {
     margin: 0 3em;
     font-size: 3vw;
