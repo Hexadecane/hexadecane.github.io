@@ -75,7 +75,7 @@ h2 {
   background-color: #111;
 }
 .pageChunk {
-  height: calc(100vh - 2em);
+  height: 100vh;
   width: calc(100% * 2 / 3);
   margin: auto;
   display: flex;
