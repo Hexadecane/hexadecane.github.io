@@ -145,10 +145,9 @@ h2 {
   margin: 0 auto;
 }
 #contactGrid img {
-  width: 1.33em;
-  height: 1.33em;
-  padding: 0 0.5em;
-  vertical-align: middle;
+  width: 1.5em;
+  height: 1.5em;
+  padding: 0.5em;
 }
 #profileLink {
   text-decoration: none;
