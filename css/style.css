@@ -135,17 +135,21 @@ h2 {
 
 /* Stuff for the Contact section: */
 
+.contactChunk {
+  width: 90%;
+}
 #contactGrid {
   display: grid;
-  grid-template-columns: auto auto auto;
-  width: 67%;
+  grid-template-columns: auto auto;
+  width: 50%;
   margin: 0 auto;
 }
 #profileLink {
   text-decoration: none;
   color: #2f97ce !important;
-  padding: 1em;
+  padding: 2em 1.5em;
   transition: 150ms;
+  font-size: 1.25em;
 }
 #profileLink:hover {
   background-color: #333;
@@ -153,7 +157,20 @@ h2 {
   color: #ce2f47 !important;
   transition: 150ms;
 }
-
+@media (max-width: 900px) {
+  .contactChunk {
+    width: 100%;
+  }
+  #contactGrid {
+    width: 75%;
+  }
+}
+@media (max-width: 400px) {
+  #profileLink {
+    font-size: 1em;
+    padding: 1.5em .75em;
+  }
+}
 
 #signature {
   position: relative;
@@ -223,7 +240,6 @@ h2 {
     grid-template-columns: auto auto;
   }
   #contactGrid {
-    font-size: .75em;
-    grid-template-columns: auto auto;
+    font-size: 1em;
   }
 }
