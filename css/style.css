@@ -71,6 +71,10 @@ h2 {
   color: #000 !important;
   transition: 150ms;
 }
+#navList a:active {
+  background-color: #111;
+  color: #FFF;
+}
 
 
 #pageContents {
@@ -103,7 +107,7 @@ h2 {
   display: grid;
   grid-template-columns: auto auto auto;
   padding: 0;
-  opacity: 75%;
+  color: #BBB;
   width: calc(100% * 2 / 3);
   margin: 0 auto;
 }
@@ -160,6 +164,7 @@ h2 {
 }
 #workContentsText p {
   color: #BBB;
+  line-height: 1.1em;
 }
 #workDivider {
   height: 0px;
@@ -185,12 +190,17 @@ h2 {
   color: #2f97ce;
   border: none;
   background-color: #111;
+  font-size: 1em;
   font-family: "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
 }
 .workNavButton button:hover {
   background-color: #FFF;
   color: #000;
   cursor: pointer;
+}
+.workNavButton button:active {
+  background-color: #111;
+  color: #FFF;
 }
 #workNavPrev {
   border-right: #222 1px solid;
