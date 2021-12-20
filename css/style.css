@@ -15,13 +15,13 @@ html, body {
   background-color: #000;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: #222;
+  background-color: #333;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #444;
+  background-color: #555;
 }
 ::-webkit-scrollbar-button {
-  display: none;
+  background-color: #222;
 }
 
 h1 {
@@ -55,6 +55,7 @@ h2 {
 #navList li {
   font-family: "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
   margin: 0 4em;
+  font-size: 1.25em;
 }
 #navList a {
   text-decoration: none;
@@ -133,46 +134,69 @@ h2 {
 }
 #workContainer {
   width: 100%;
-  height: 80vh;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  width: calc(100% - 12em);
+  margin: 0 auto;
+  max-height: 80vh;
 }
 #workContents {
-  width: calc(100% - 12em);
+  margin: auto;
+  max-height: 71vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 #workContentsImages {
-  width: 90%;
+  width: 100%;
   margin: auto;
   overflow-y: scroll;
+  background-color: #000;
 }
 #workContentsImages img {
-  max-width: calc(100% - 2em);
+  max-width: 95%;
 }
 #workContentsText {
   width: 90%;
   margin: auto;
 }
-.workNavButton {
-  width: calc(5em - 2px);
-  color: #2f97ce;
+#workContentsText p {
+  color: #BBB;
+}
+#workDivider {
+  height: 0px;
+  outline: 1px solid #222;
+  margin: 0 0 1em 0;
+}
+#workNavButtonContainer {
+  margin: 0 auto;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
 }
+.workNavButton {
+  width: 10%;
+  height: 4em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.workNavButton button {
+  height: 100%;
+  transition: 150ms;
+  color: #2f97ce;
+  border: none;
+  background-color: #111;
+  font-family: "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
+}
+.workNavButton button:hover {
+  background-color: #FFF;
+  color: #000;
+  cursor: pointer;
+}
 #workNavPrev {
-  border-right: #333 2px solid;
+  border-right: #222 1px solid;
 }
 #workNavNext {
-  border-left: #333 2px solid;
-}
-.workNavArrow {
-  width: 3em;
-  height: 3em;
-  margin: auto;
+  border-left: #222 1px solid;
 }
 
 /* Stuff for the Contact section: */
