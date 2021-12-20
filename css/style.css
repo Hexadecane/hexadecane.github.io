@@ -11,7 +11,7 @@ html, body {
 
 
 ::-webkit-scrollbar {
-  width: inherit;
+  width: auto;
   background-color: inherit;
 }
 ::-webkit-scrollbar-thumb {
@@ -20,7 +20,9 @@ html, body {
 ::-webkit-scrollbar-thumb:hover {
   background-color: #444;
 }
-
+::-webkit-scrollbar-button {
+  display: none;
+}
 
 h1 {
   font-size: 2.5em; /* Default = 2em */
