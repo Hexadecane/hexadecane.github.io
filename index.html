@@ -48,26 +48,52 @@
         <div class="pageChunk workChunk">
             <h1>My Work:</h1>
             <div id="workContainer">
-                <div id="workContents">
-                    <div id="workContentsImages">
+                <div class="workContents" id="workEntry0">
+                    <div class="workContentsImages">
                         <img src="images/InertiaPlaceholder.png"></img>
                         <br>
                         <img src="images/InertiaPlaceholder.png"></img>
                         <br>
                         <img src="images/InertiaPlaceholder.png"></img>
                     </div>
-                    <div id="workContentsText">
+                    <div class="workContentsText">
                         <h3>INERTIA (2018 - Present)</h3>
-                        <p>An in-development semi-total-conversion modification of Half-Life 2: Episode 2.<br>You can find more information about the project on <a href="https://www.moddb.com/mods/inertia-mod">ModDB.</a></p>
+                        <p>An in-development semi-total-conversion modification of Half-Life 2: Episode 2<br> I am the lead developer and responsible for its programming, level design, 3D models, art, etc.<br>You can find more information about the project on <a href="https://www.moddb.com/mods/inertia-mod">ModDB.</a></p>
+                    </div>
+                </div>
+                <div class="workContents" id="workEntry1">
+                    <div class="workContentsImages">
+                        <img src="images/InertiaPlaceholder.png"></img>
+                        <br>
+                        <img src="images/InertiaPlaceholder.png"></img>
+                        <br>
+                        <img src="images/InertiaPlaceholder.png"></img>
+                    </div>
+                    <div class="workContentsText">
+                        <h3>Lorem Ipsum</h3>
+                        <p>Yeah.</p>
+                    </div>
+                </div>
+                <div class="workContents" id="workEntry2">
+                    <div class="workContentsImages">
+                        <img src="images/InertiaPlaceholder.png"></img>
+                        <br>
+                        <img src="images/InertiaPlaceholder.png"></img>
+                        <br>
+                        <img src="images/InertiaPlaceholder.png"></img>
+                    </div>
+                    <div class="workContentsText">
+                        <h3>Lorem Ipsum 2: Electric Boogaloo</h3>
+                        <p>Yeah.</p>
                     </div>
                 </div>
                 <div id="workDivider"></div>
                 <div id="workNavButtonContainer">
                     <div class="workNavButton" id="workNavPrev">
-                        <button>PREV</button>
+                        <button type="button" onclick="workNavGoBack()">PREV</button>
                     </div>
                     <div class="workNavButton" id="workNavNext">
-                        <button>NEXT</button>
+                        <button type="button" onclick="workNavGoForward()">NEXT</button>
                     </div>
                 </div>
             </div>

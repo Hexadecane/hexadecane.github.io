@@ -133,6 +133,13 @@ h2 {
 
 /* Stuff for the Work section: */
 
+/*
+#workEntry1 {
+  display: none;
+}
+*/
+/* ^^^ This is controlled by JS currently... this is the format to follow for hiding visibility however! */
+
 .workChunk {
   width: 100%;
 }
@@ -142,27 +149,27 @@ h2 {
   margin: 0 auto;
   max-height: 80vh;
 }
-#workContents {
+.workContents {
   margin: auto;
   max-height: 71vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-#workContentsImages {
+.workContentsImages {
   width: 100%;
   margin: auto;
   overflow-y: scroll;
   background-color: #000;
 }
-#workContentsImages img {
+.workContentsImages img {
   max-width: 95%;
 }
-#workContentsText {
+.workContentsText {
   width: 90%;
   margin: auto;
 }
-#workContentsText p {
+.workContentsText p {
   color: #BBB;
   line-height: 1.1em;
 }
