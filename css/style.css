@@ -200,12 +200,15 @@ h2 {
   font-size: 1em;
   font-family: "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
 }
-.workNavButton button:hover {
+.workNavButton button:disabled {
+  color: #333;
+}
+.workNavButton button:hover:enabled {
   background-color: #FFF;
   color: #000;
   cursor: pointer;
 }
-.workNavButton button:active {
+.workNavButton button:active:enabled {
   background-color: #111;
   color: #FFF;
 }
