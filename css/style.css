@@ -149,8 +149,7 @@ h2 {
   width: 100%;
 }
 #workContainer {
-  width: 100%;
-  width: calc(100% - 12em);
+  width: calc(100% - 8em);
   margin: 0 auto;
   max-height: 80vh;
 }
@@ -190,8 +189,8 @@ h2 {
   justify-content: center;
 }
 .workNavButton {
-  width: 10%;
-  height: 4em;
+  width: 7em;
+  height: 3.5em;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -222,6 +221,11 @@ h2 {
 }
 #workNavNext {
   border-left: #222 1px solid;
+}
+@media (max-width: 1660px) {
+  #workContainer {
+    width: calc(100% - 2em);
+  }
 }
 
 /* Stuff for the Contact section: */
