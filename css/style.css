@@ -130,6 +130,11 @@ h2 {
     display: block;
   }
 }
+@media (max-width: 500px) {
+  #skillsGrid {
+    grid-template-columns: auto;
+  }
+}
 
 /* Stuff for the Work section: */
 
